@@ -627,19 +627,19 @@
       <div class="q-text">How old are you?</div>
       <div class="q-sub">Age affects how quickly prostate cellular buildup progresses — and which approach works fastest.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q1', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q1', 1, 'screen-q2')">
           <div class="opt-icon">👨</div>
           <div><div class="opt-label">45 – 54</div><div class="opt-sublabel">Early window — easiest to reverse</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q1', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q1', 2, 'screen-q2')">
           <div class="opt-icon">👨‍🦳</div>
           <div><div class="opt-label">55 – 64</div><div class="opt-sublabel">Most common peak onset period</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q1', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q1', 3, 'screen-q2')">
           <div class="opt-icon">👴</div>
           <div><div class="opt-label">65 – 74</div><div class="opt-sublabel">Accumulation likely well underway</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q1', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q1', 4, 'screen-q2')">
           <div class="opt-icon">🎖️</div>
           <div><div class="opt-label">75+</div><div class="opt-sublabel">Advanced profile — still very treatable</div></div>
         </button>
@@ -647,7 +647,6 @@
       <div class="insight-box" id="insight-q1">
         <strong>Did you know?</strong> The majority of men over 50 have some degree of prostate cellular buildup — yet most doctors never explain the real cause behind it.
       </div>
-      <button class="btn-next" id="next-q1" onclick="goTo('screen-q2')">Continue →</button>
     </div>
   </div>
 
@@ -660,19 +659,19 @@
       <div class="q-text">How many times do you wake up at night to urinate?</div>
       <div class="q-sub">Nighttime frequency is one of the most accurate indicators of how much your prostate is compressing your bladder.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q2', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q2', 1, 'screen-q3')">
           <div class="opt-icon">😴</div>
           <div><div class="opt-label">0 – 1 times</div><div class="opt-sublabel">Mild or early stage</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q2', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q2', 2, 'screen-q3')">
           <div class="opt-icon">😐</div>
           <div><div class="opt-label">2 – 3 times</div><div class="opt-sublabel">Moderate — sleep quality is suffering</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q2', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q2', 3, 'screen-q3')">
           <div class="opt-icon">😩</div>
           <div><div class="opt-label">4 – 5 times</div><div class="opt-sublabel">Severe — energy and focus are collapsing</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q2', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q2', 4, 'screen-q3')">
           <div class="opt-icon">🚨</div>
           <div><div class="opt-label">6+ times / barely sleep</div><div class="opt-sublabel">Critical — this is a serious health risk</div></div>
         </button>
@@ -680,7 +679,6 @@
       <div class="insight-box" id="insight-q2">
         <strong>Important:</strong> Waking up 3+ times per night isn't just inconvenient — chronic sleep fragmentation accelerates cardiovascular risk, cognitive decline, and hormonal imbalance in men over 50.
       </div>
-      <button class="btn-next" id="next-q2" onclick="goTo('screen-q3')">Continue →</button>
     </div>
   </div>
 
@@ -693,19 +691,19 @@
       <div class="q-text">How would you describe your urine stream right now?</div>
       <div class="q-sub">The strength of your stream directly reflects how much your enlarged prostate is squeezing your urethra.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q3', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q3', 1, 'screen-mid1')">
           <div class="opt-icon">💪</div>
           <div><div class="opt-label">Strong and consistent</div><div class="opt-sublabel">Minimal obstruction</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q3', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q3', 2, 'screen-mid1')">
           <div class="opt-icon">📉</div>
           <div><div class="opt-label">Weaker than it used to be</div><div class="opt-sublabel">Early compression signs</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q3', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q3', 3, 'screen-mid1')">
           <div class="opt-icon">💧</div>
           <div><div class="opt-label">Slow dribble — takes real effort</div><div class="opt-sublabel">Significant obstruction present</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q3', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q3', 4, 'screen-mid1')">
           <div class="opt-icon">🛑</div>
           <div><div class="opt-label">I have to strain or it stops mid-flow</div><div class="opt-sublabel">Severe urethra compression</div></div>
         </button>
@@ -713,7 +711,6 @@
       <div class="insight-box" id="insight-q3">
         <strong>What this tells us:</strong> A weakening stream is caused by dead cell accumulation pressing on the urethra — not aging itself. This process is reversible when you target the root cause.
       </div>
-      <button class="btn-next" id="next-q3" onclick="goTo('screen-mid1')">Continue →</button>
     </div>
   </div>
 
@@ -739,19 +736,19 @@
       <div class="q-text">After urinating, do you feel like your bladder is completely empty?</div>
       <div class="q-sub">This is one of the clearest signs of how much your prostate is blocking outflow.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q4', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q4', 1, 'screen-q5')">
           <div class="opt-icon">✅</div>
           <div><div class="opt-label">Yes, always fully empty</div><div class="opt-sublabel">Good bladder clearance</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q4', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q4', 2, 'screen-q5')">
           <div class="opt-icon">🤔</div>
           <div><div class="opt-label">Sometimes — it varies</div><div class="opt-sublabel">Intermittent partial obstruction</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q4', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q4', 3, 'screen-q5')">
           <div class="opt-icon">😣</div>
           <div><div class="opt-label">Rarely — I always feel residual pressure</div><div class="opt-sublabel">Consistent partial blockage</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q4', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q4', 4, 'screen-q5')">
           <div class="opt-icon">🚨</div>
           <div><div class="opt-label">Never — bladder never empties</div><div class="opt-sublabel">Severe obstruction — urgent attention needed</div></div>
         </button>
@@ -759,7 +756,6 @@
       <div class="insight-box" id="insight-q4">
         <strong>Residual urine is dangerous:</strong> Urine left in the bladder becomes a breeding ground for bacteria — the #1 cause of recurrent UTIs and kidney complications in men with BPH.
       </div>
-      <button class="btn-next" id="next-q4" onclick="goTo('screen-q5')">Continue →</button>
     </div>
   </div>
 
@@ -772,19 +768,19 @@
       <div class="q-text">Have you tried any of these for your prostate? (Select all that apply)</div>
       <div class="q-sub">Understanding what you've already attempted helps us identify what's missing from your current approach.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q5', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q5', 1, 'screen-q6')">
           <div class="opt-icon">💊</div>
           <div><div class="opt-label">Prescription medications</div><div class="opt-sublabel">Alpha blockers, 5-alpha reductase inhibitors</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q5', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q5', 2, 'screen-q6')">
           <div class="opt-icon">🌿</div>
           <div><div class="opt-label">Supplements from Amazon or health stores</div><div class="opt-sublabel">Saw palmetto, beta-sitosterol, etc.</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q5', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q5', 3, 'screen-q6')">
           <div class="opt-icon">🥗</div>
           <div><div class="opt-label">Diet changes / home remedies</div><div class="opt-sublabel">Avoiding caffeine, alcohol, spicy foods</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q5', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q5', 4, 'screen-q6')">
           <div class="opt-icon">🔰</div>
           <div><div class="opt-label">Nothing yet — just dealing with it</div><div class="opt-sublabel">No treatment started</div></div>
         </button>
@@ -792,7 +788,6 @@
       <div class="insight-box" id="insight-q5">
         <strong>Here's why those approaches often fail:</strong> Meds treat symptoms by blocking hormones or relaxing muscles — but neither removes the cellular buildup causing the enlargement. Supplements rarely reach the prostate in therapeutic amounts via standard capsule form.
       </div>
-      <button class="btn-next" id="next-q5" onclick="goTo('screen-q6')">Continue →</button>
     </div>
   </div>
 
@@ -805,19 +800,19 @@
       <div class="q-text">Has your prostate affected your sex life or desire?</div>
       <div class="q-sub">The prostate is directly connected to sexual function. This is one of the most commonly suppressed effects of BPH.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q6', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q6', 1, 'screen-q7')">
           <div class="opt-icon">✅</div>
           <div><div class="opt-label">No — sex life is unaffected</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q6', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q6', 2, 'screen-q7')">
           <div class="opt-icon">📉</div>
           <div><div class="opt-label">Some reduction in desire or performance</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q6', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q6', 3, 'screen-q7')">
           <div class="opt-icon">😔</div>
           <div><div class="opt-label">Significantly reduced — causing relationship strain</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q6', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q6', 4, 'screen-q7')">
           <div class="opt-icon">💔</div>
           <div><div class="opt-label">No sex life — it's been months or more</div></div>
         </button>
@@ -825,7 +820,6 @@
       <div class="insight-box" id="insight-q6">
         <strong>This is rarely talked about:</strong> Restricted blood flow around the prostate directly throttles erectile function and libido — independent of testosterone levels. Restoring prostate circulation often brings sexual function back naturally.
       </div>
-      <button class="btn-next" id="next-q6" onclick="goTo('screen-q7')">Continue →</button>
     </div>
   </div>
 
@@ -838,19 +832,19 @@
       <div class="q-text">How much have your symptoms changed your daily life?</div>
       <div class="q-sub">The degree to which BPH disrupts your routines reveals how advanced the underlying process has become.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q7', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q7', 1, 'screen-q8')">
           <div class="opt-icon">😌</div>
           <div><div class="opt-label">Mild — a minor annoyance at most</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q7', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q7', 2, 'screen-q8')">
           <div class="opt-icon">🗺️</div>
           <div><div class="opt-label">I plan around bathrooms wherever I go</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q7', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q7', 3, 'screen-q8')">
           <div class="opt-icon">🚫</div>
           <div><div class="opt-label">I avoid travel, events, and social situations</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q7', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q7', 4, 'screen-q8')">
           <div class="opt-icon">🆘</div>
           <div><div class="opt-label">It's controlling my life — I've had accidents</div></div>
         </button>
@@ -858,7 +852,6 @@
       <div class="insight-box" id="insight-q7">
         <strong>You're not alone:</strong> Over 14 million men in the US are quietly managing symptoms like yours — avoiding trips, missing events, and feeling like they've lost control of their own body.
       </div>
-      <button class="btn-next" id="next-q7" onclick="goTo('screen-q8')">Continue →</button>
     </div>
   </div>
 
@@ -871,19 +864,19 @@
       <div class="q-text">Which of these apply to your lifestyle? (Select the closest match)</div>
       <div class="q-sub">Recent research links microplastic and toxin exposure directly to prostate inflammation. This helps us identify your primary trigger.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q8', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q8', 1, 'screen-q9')">
           <div class="opt-icon">🍶</div>
           <div><div class="opt-label">I regularly drink from plastic bottles or eat packaged food</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q8', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q8', 2, 'screen-q9')">
           <div class="opt-icon">🏙️</div>
           <div><div class="opt-label">I live in an urban area with high pollution exposure</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q8', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q8', 3, 'screen-q9')">
           <div class="opt-icon">☕</div>
           <div><div class="opt-label">High daily caffeine, red meat, or alcohol intake</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q8', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q8', 4, 'screen-q9')">
           <div class="opt-icon">🌿</div>
           <div><div class="opt-label">Mostly organic, low-toxin lifestyle</div></div>
         </button>
@@ -891,7 +884,6 @@
       <div class="insight-box" id="insight-q8">
         <strong>Groundbreaking 2024 finding:</strong> A study in the New England Journal of Medicine found microplastic particles clogging blood vessels in 58.4% of cardiac patients. The same particles accumulate around your prostate — restricting circulation and triggering enlargement.
       </div>
-      <button class="btn-next" id="next-q8" onclick="goTo('screen-q9')">Continue →</button>
     </div>
   </div>
 
@@ -904,19 +896,19 @@
       <div class="q-text">What matters most to you about fixing this?</div>
       <div class="q-sub">This helps us prioritize which part of your results to focus on first.</div>
       <div class="options-grid">
-        <button class="opt" onclick="selectOpt(this, 'q9', 1)">
+        <button class="opt" onclick="selectOpt(this, 'q9', 1, 'screen-analyzing')">
           <div class="opt-icon">😴</div>
           <div><div class="opt-label">Sleep through the night without interruption</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q9', 2)">
+        <button class="opt" onclick="selectOpt(this, 'q9', 2, 'screen-analyzing')">
           <div class="opt-icon">💑</div>
           <div><div class="opt-label">Restore my sex life and my relationship</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q9', 3)">
+        <button class="opt" onclick="selectOpt(this, 'q9', 3, 'screen-analyzing')">
           <div class="opt-icon">✈️</div>
           <div><div class="opt-label">Travel and enjoy life freely again</div></div>
         </button>
-        <button class="opt" onclick="selectOpt(this, 'q9', 4)">
+        <button class="opt" onclick="selectOpt(this, 'q9', 4, 'screen-analyzing')">
           <div class="opt-icon">💪</div>
           <div><div class="opt-label">Feel like a strong, energetic man again</div></div>
         </button>
@@ -924,7 +916,6 @@
       <div class="insight-box" id="insight-q9">
         <strong>All of these are connected:</strong> When prostate circulation is restored and cellular buildup dissolves, sleep, energy, sexual function, and freedom all improve — often within the same few weeks.
       </div>
-      <button class="btn-next" id="next-q9" onclick="goTo('screen-analyzing')">See My Results →</button>
     </div>
   </div>
 
@@ -1119,7 +1110,7 @@
     document.getElementById('progressFill').style.width = pct + '%';
   }
 
-  function selectOpt(btn, qKey, value) {
+  function selectOpt(btn, qKey, value, nextScreen) {
     // mark selection
     const parent = btn.closest('.options-grid');
     parent.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
@@ -1130,9 +1121,10 @@
     const insight = document.getElementById('insight-' + qKey);
     if (insight) insight.classList.add('visible');
 
-    // show next button
-    const nextBtn = document.getElementById('next-' + qKey);
-    if (nextBtn) nextBtn.classList.add('visible');
+    // auto-advance after a brief pause so the selection and insight are visible
+    if (nextScreen) {
+      setTimeout(() => goTo(nextScreen), 1200);
+    }
   }
 
   function runAnalysis() {
