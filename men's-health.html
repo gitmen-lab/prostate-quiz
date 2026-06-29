@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urologist's 60-Second Test Reveals Hidden Cause Behind Nighttime Bathroom Trips</title>
+<meta name="description" content="A simple self-assessment developed by a board-certified urologist is helping men over 40 identify the root cause of urgency, weak flow, and disrupted sleep.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Georgia&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root {
+    --navy: #0D1B2A;
+    --teal: #1A6B72;
+    --gold: #C9922A;
+    --ink: #1C1C1E;
+    --muted: #6B7280;
+    --line: #E3E1DC;
+    --paper: #FBFAF8;
+    --red: #C0392B;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', Georgia, serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+
+  /* ===== MASTHEAD ===== */
+  .masthead {
+    text-align: center;
+    padding: 18px 16px 14px;
+    border-bottom: 3px double var(--navy);
+    background: #fff;
+  }
+  .masthead .logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: clamp(24px, 6vw, 34px);
+    color: var(--navy);
+    letter-spacing: 0.5px;
+  }
+  .masthead .tagline {
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .masthead .rule {
+    max-width: 640px;
+    margin: 10px auto 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 28px 18px 60px;
+  }
+
+  .advertorial-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    padding: 3px 9px;
+    border-radius: 3px;
+    margin-bottom: 14px;
+  }
+
+  h1.headline {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: clamp(26px, 5.5vw, 36px);
+    line-height: 1.22;
+    color: var(--ink);
+    border-left: 5px solid var(--red);
+    padding-left: 16px;
+    margin-bottom: 14px;
+  }
+
+  .byline {
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+  }
+
+  .subhead {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+  }
+
+  .hero-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+  .hero-row img {
+    width: 50%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+
+  article p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #2A2A2C;
+  }
+
+  article a.inline-link {
+    color: var(--teal);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: rgba(26,107,114,0.4);
+  }
+
+  article h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 30px 0 14px;
+  }
+
+  .story-img {
+    width: 100%;
+    border-radius: 4px;
+    margin: 18px 0 22px;
+  }
+
+  .pull-quote {
+    border-left: 4px solid var(--gold);
+    padding: 4px 0 4px 16px;
+    font-style: italic;
+    font-size: 17px;
+    color: var(--navy);
+    margin: 22px 0;
+  }
+
+  /* ===== FINAL CTA BLOCK ===== */
+  .cta-block {
+    margin-top: 36px;
+    text-align: center;
+  }
+  .cta-block img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 18px;
+  }
+  .cta-btn {
+    display: block;
+    width: 100%;
+    background: var(--red);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    padding: 18px 0;
+    border-radius: 4px;
+    box-shadow: 0 6px 18px rgba(192,57,43,0.35);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .cta-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 22px rgba(192,57,43,0.45); }
+  .cta-sub {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+
+  .rule-full {
+    border-top: 1px solid var(--line);
+    margin: 40px 0 24px;
+  }
+
+  .disclaimer {
+    background: #F0EEE9;
+    border-radius: 4px;
+    padding: 18px 20px;
+    margin-top: 10px;
+  }
+  .disclaimer p {
+    font-size: 11.5px;
+    color: #4B4B4D;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .disclaimer p.note {
+    font-weight: 400;
+    font-size: 11px;
+    color: #6B6B6D;
+    margin-bottom: 0;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 28px;
+  }
+  footer .links {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  footer .links a {
+    color: var(--teal);
+    text-decoration: none;
+    margin: 0 6px;
+  }
+  footer .copyright {
+    font-size: 11px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="logo">Men's Health Daily</div>
+    <div class="tagline">Health &amp; Wellness Desk</div>
+    <div class="rule"></div>
+  </div>
+
+  <div class="wrap">
+    <span class="advertorial-tag">Advertorial</span>
+
+    <h1 class="headline">Urologist's 60-Second Routine Test Reveals the Hidden Cause Behind Nighttime Bathroom Trips</h1>
+
+    <div class="byline">Published: June 29, 2026 &middot; Health &amp; Wellness Desk</div>
+
+    <p class="subhead">A simple self-assessment developed by a board-certified urologist is helping thousands of men over 40 identify the root cause of urgency, weak flow, and disrupted sleep — without setting foot in a waiting room.</p>
+
+    <div class="hero-row">
+      <!-- PLACEHOLDER IMAGE: replace with licensed/real photography before publishing -->
+      <img src="https://source.unsplash.com/800x800/?senior-man,doctor" alt="Doctor consulting with a senior patient">
+      <img src="https://source.unsplash.com/800x800/?clinic,medical-exam" alt="Clinical exam room">
+    </div>
+
+    <article>
+      <p>For most men over 45, it starts the same way: an extra trip to the bathroom at 2 a.m., then 4 a.m., then a third time before sunrise. Few think much of it at first. Fewer still mention it to a doctor until the disrupted sleep — and the daytime urgency that comes with it — becomes impossible to ignore.</p>
+
+      <p>That pattern is exactly what prompted one urologist to build a faster way to flag the issue early, <a href="#cta" class="inline-link">before</a> it progresses into something that requires medication or a procedure.</p>
+
+      <h2>The Test That's Changing How Men Think About Prostate Health</h2>
+
+      <p>Instead of waiting for an annual physical — or avoiding the conversation altogether — the assessment walks through the same core symptom markers a urologist evaluates in-office: urgency, flow strength, frequency, and nighttime disruption. It takes about a minute and requires nothing more than honest answers.</p>
+
+      <p>"Most men wait far too long," the assessment's developer notes. "By the time it's affecting sleep every night, it's already been building for years. The goal here is to catch the pattern early and give men a clear next step." <a href="#cta" class="inline-link">The full self-assessment is available to try for free</a>, though how long it stays free is unclear.</p>
+
+      <img class="story-img" src="https://source.unsplash.com/1200x700/?man,sleep,tired" alt="Man awake at night">
+
+      <h2>Why Standard Checkups Often Miss This</h2>
+
+      <p>Routine physicals are short, and prostate symptoms are easy to underreport — or skip mentioning — in a ten-minute appointment. That gap is exactly why a structured, private, self-guided symptom check has resonated with men who'd rather get clarity first and decide on next steps after.</p>
+
+      <p class="pull-quote">"I kept telling myself it was just getting older. It wasn't until I actually scored my symptoms that I realized how much it had crept up on me."</p>
+
+      <h2>A 60-Second Self-Assessment, Backed by Clinical Symptom Scoring</h2>
+
+      <p>The quiz mirrors the same symptom index used in clinical settings, scoring responses to highlight where a man's symptoms fall — mild, moderate, or significant — and what that pattern typically indicates. There's no cost, no appointment, and no obligation to share the results with anyone.</p>
+
+      <img class="story-img" src="https://source.unsplash.com/1200x700/?phone,quiz,checklist" alt="Taking a health assessment on a phone">
+
+      <h2>Take Control Before Your Next Appointment</h2>
+
+      <p>Whether the result is reassuring or a reason to follow up with a physician, having a clear, structured answer beats not knowing. That's the entire premise behind making the assessment free and available right now — <a href="#cta" class="inline-link">before access changes</a>.</p>
+
+      <p>If you've noticed any of these patterns creeping into your own routine, the assessment below takes about the same amount of time it took to read this article.</p>
+    </article>
+
+    <div class="cta-block" id="cta">
+      <img src="https://source.unsplash.com/1200x800/?senior-man,smiling,outdoors" alt="Man feeling confident outdoors">
+      <a class="cta-btn" href="https://prostate-quiz.site/" rel="sponsored">Take the Free 60-Second Assessment</a>
+      <div class="cta-sub">No cost. No signup required. Results shown instantly.</div>
+    </div>
+
+    <div class="rule-full"></div>
+
+    <div class="disclaimer">
+      <p>THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR HEALTH UPDATE.</p>
+      <p class="note">This content is for general informational purposes only and does not constitute medical advice. The self-assessment referenced is not a diagnostic tool and is not a substitute for consultation with a licensed physician. Individual results and experiences will vary. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition.</p>
+    </div>
+
+    <footer>
+      <div class="links">
+        <a href="terms.html">Terms &amp; Conditions</a> |
+        <a href="privacy-policy.html">Privacy Policy</a> |
+        <a href="disclaimer.html">Disclaimer</a>
+      </div>
+      <div class="copyright">&copy; 2026 Men's Health Daily. All Rights Reserved.</div>
+    </footer>
+  </div>
+
+</body>
+</html>
